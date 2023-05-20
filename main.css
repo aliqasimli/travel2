@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 67%;
+    margin: auto;
+    padding: 0 15px;    
+
+}
+.header {
+  width: 100%;
+  background: transparent;
+  padding: 20px 0;
+  position: absolute;
+}
+.header-content{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-list{
+  display: flex;
+}
+.nav-item{
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 14px;
+  position: relative;
+}
+.nav-item:hover .menu-list{
+  display: block;
+}
+.nav-item a {
+  color: #fff;
+}
+.logo a {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.logo a span {
+  color: #08d9d6;
+  font-size: 24px;
+  font-weight: 700;
+}
+.menu-list{
+  color: black;
+  background-color: #fff;
+  width: 180px;
+  padding: 20px 0px;
+  position: absolute;
+  display: none;
+}
+.menu-item:hover .menu-two-list{
+  display: block;
+}
+.menu-two-list{
+  width: 150px;
+  display: block;
+  position: absolute;
+  background-color: #fff;
+  top: 0;
+  left: 100%;
+  display: none;
+
+}
+.menu-two-item{
+  padding: 5px 20px;
+}
+.menu-item{
+  padding: 5px 20px;
+  position: relative;
+}
+.main{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./img/pexels-faik-akmd-1025469.jpg);
+}
+.main-content{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} 
+.contact-button{
+  background: #08d9d6;
+  border-color: #08d9d6;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 14px;
+  color: #fff;
+}
+h1{
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: 480;
+  line-height: 1.2;
+  font-family: sans-serif;
+  margin-bottom: 25px;
+}
